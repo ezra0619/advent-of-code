@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AocDay1Component } from './aoc-2021/aoc-day1/aoc-day1.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AocDay1Component
   ],
   imports: [
     BrowserModule,

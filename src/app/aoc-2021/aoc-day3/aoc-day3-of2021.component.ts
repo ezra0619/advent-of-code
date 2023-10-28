@@ -1,13 +1,11 @@
 import {Component, OnInit} from '@angular/core';
 import {puzzleInput} from "./puzzleInput";
-import {getLocaleFirstDayOfWeek} from "@angular/common";
 
 @Component({
-  selector: 'app-aoc-day3',
-  templateUrl: './aoc-day3.component.html',
-  styleUrls: ['./aoc-day3.component.scss']
+  selector: 'app-aoc-day3-of2021',
+  templateUrl: './aoc-day3-of2021.component.html',
 })
-export class AocDay3Component implements OnInit {
+export class AocDay3Of2021Component implements OnInit {
 
   private puzzle: Array<Array<number>> = puzzleInput.split('\n').map((string) => string.split('').map(Number))
   private miniPuzzle: Array<Array<number>> = `00100

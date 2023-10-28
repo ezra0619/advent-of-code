@@ -2,11 +2,10 @@ import {Component, OnInit} from '@angular/core';
 import {puzzleInput} from "./puzzleInput";
 
 @Component({
-    selector: 'app-aoc-day1',
-    templateUrl: './aoc-day1.component.html',
-    styleUrls: ['./aoc-day1.component.scss']
+    selector: 'app-aoc-day1-of2021',
+    templateUrl: './aoc-day1-of2021.component.html',
 })
-export class AocDay1Component implements OnInit {
+export class AocDay1Of2021Component implements OnInit {
 
     private puzzleInput = puzzleInput
     private miniPuzzleInput = `199

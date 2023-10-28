@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AocDay1Component } from './aoc-2021/aoc-day1/aoc-day1.component';
 import {AocDay2Component} from "./aoc-2021/aoc-day2/aoc-day2.component";
-import {AocDay3Component} from "./aoc-2021/aoc-day-3/aoc-day3.component";
+import {AocDay3Component} from "./aoc-2021/aoc-day3/aoc-day3.component";
 
 @NgModule({
     declarations: [

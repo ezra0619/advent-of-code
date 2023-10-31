@@ -32,7 +32,7 @@ export class AocDay2Of2022Component implements OnInit {
 
   private puzzleInput: Array<RoundSigns> = this.curatePuzzle(puzzleInput)
 
-  ngOnInit() {
+  public ngOnInit(): void {
     /// PART 1
     const roundOneResponse: number = this.puzzleInput.reduce((previousValue, currentValue) => {
       return previousValue + this.calculatePartOneRoundOutcome(currentValue)

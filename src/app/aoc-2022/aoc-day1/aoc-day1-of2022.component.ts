@@ -10,7 +10,7 @@ export class AocDay1Of2022Component implements OnInit {
   private mainPuzzleInput = puzzleInput.split('\n\n')
     .map((e) => e.split('\n'));
 
-  ngOnInit() {
+  public ngOnInit(): void {
     const responsePartOne = this.getSortedSums(this.mainPuzzleInput)[0];
     const responsePartTwo = this.getSortedSums(this.mainPuzzleInput)[0] + this.getSortedSums(
       this.mainPuzzleInput

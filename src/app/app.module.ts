@@ -8,6 +8,8 @@ import {AocDay2Of2021Component} from "./aoc-2021/aoc-day2/aoc-day2-of2021.compon
 import {AocDay3Of2021Component} from "./aoc-2021/aoc-day3/aoc-day3-of2021.component";
 import {AocDay1Of2022Component} from "./aoc-2022/aoc-day1/aoc-day1-of2022.component";
 import {AocDay2Of2022Component} from "./aoc-2022/aoc-day2/aoc-day2-of2022.component";
+import {AocDay3Of2022Component} from "./aoc-2022/aoc-day3/aoc-day3-of2022.component";
+import {AocDay4Of2022Component} from "./aoc-2022/aoc-day4/aoc-day4-of2022.component";
 
 
 @NgModule({
@@ -17,7 +19,9 @@ import {AocDay2Of2022Component} from "./aoc-2022/aoc-day2/aoc-day2-of2022.compon
       AocDay2Of2021Component,
       AocDay3Of2021Component,
       AocDay1Of2022Component,
-      AocDay2Of2022Component
+      AocDay2Of2022Component,
+      AocDay3Of2022Component,
+      AocDay4Of2022Component
     ],
   imports: [
     BrowserModule,
